@@ -1,0 +1,19 @@
+{
+  "name": "mstssk.github.io",
+  "private": true,
+  "homepage": "https://github.com/mstssk/mstssk.github.io#readme",
+  "bugs": {
+    "url": "https://github.com/mstssk/mstssk.github.io/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mstssk/mstssk.github.io.git"
+  },
+  "author": "@mstssk",
+  "scripts": {
+    "start": "serve"
+  },
+  "devDependencies": {
+    "serve": "^14.1.2"
+  }
+}

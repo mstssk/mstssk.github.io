@@ -1,0 +1,34 @@
+/* https://github.com/mayank99/reset.css */
+@import "https://unpkg.com/@acab/reset.css";
+
+.u-bg {
+  background: #f1f8e9;
+}
+
+.u-centering-container {
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.u-vertical {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.u-spacer {
+  min-height: 1em;
+}
+
+.c-icon {
+  border-radius: 50%;
+}
+
+.c-social-list {
+  font-size: x-large;
+}

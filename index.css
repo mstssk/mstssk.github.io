@@ -1,6 +1,10 @@
 /* https://github.com/mayank99/reset.css */
 @import "https://unpkg.com/@acab/reset.css";
 
+:root {
+  --footer-height: 1rem;
+}
+
 :where(h1, p) {
   color: black;
 }
@@ -13,8 +17,8 @@
   margin: 0;
   padding: 0;
   width: 100vw;
-  height: 100vh;
-  height: 100dvh;
+  height: calc(100vh - var(--footer-height));
+  height: calc(100dvh - var(--footer-height));
   display: flex;
   align-items: center;
   justify-content: center;
@@ -29,6 +33,9 @@
 .u-spacer {
   min-height: 1em;
 }
+.u-spacer-x-4 {
+  min-height: 4em;
+}
 
 .c-icon {
   border-radius: 50%;
@@ -36,4 +43,11 @@
 
 .c-social-list {
   font-size: x-large;
+}
+
+.c-footer {
+  line-height: 1rem;
+  font-size: small;
+  text-align: end;
+  color: gray;
 }

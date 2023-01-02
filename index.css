@@ -48,6 +48,7 @@
 .c-footer {
   line-height: var(--footer-height);
   font-size: small;
-  text-align: end;
   color: gray;
+  display: flex;
+  justify-content: end;
 }

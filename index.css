@@ -17,8 +17,7 @@
   margin: 0;
   padding: 0;
   width: 100vw;
-  min-height: calc(100vh - var(--footer-height));
-  min-height: calc(100dvh - var(--footer-height));
+  min-height: calc(100dvh - var(--footer-height) - env(safe-area-inset-bottom));
   display: flex;
   align-items: center;
   justify-content: center;
@@ -51,4 +50,5 @@
   color: gray;
   display: flex;
   justify-content: end;
+  padding-inline-end: 1ex;
 }

@@ -10,6 +10,7 @@ jobs:
         with:
           node-version: 18
           cache: "npm"
+      - run: npm ci
       - uses: wearerequired/lint-action@v2
         with:
           prettier: true

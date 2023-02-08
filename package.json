@@ -11,13 +11,12 @@
   },
   "author": "@mstssk",
   "scripts": {
-    "start": "serve",
+    "start": "npx serve",
     "fmt": "prettier --write index.css",
     "lint": "stylelint index.css"
   },
   "devDependencies": {
     "prettier": "^2.8.3",
-    "serve": "^14.1.2",
     "stylelint": "^14.16.1",
     "stylelint-prettier": "^2.0.0"
   }

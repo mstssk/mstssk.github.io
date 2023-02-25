@@ -14,4 +14,5 @@ jobs:
       - uses: wearerequired/lint-action@v2
         with:
           prettier: true
+          prettier_extensions: css
           stylelint: true

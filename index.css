@@ -43,6 +43,29 @@
 .c-social-list {
   font-size: x-large;
 }
+.c-social-list > * + * {
+  margin-top: 0.5rem;
+}
+
+.c-social-anchor {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  gap: 0.5ex;
+  color: inherit;
+  filter: contrast(0);
+}
+.c-social-anchor:active,
+.c-social-anchor:focus,
+.c-social-anchor:hover {
+  filter: none;
+}
+
+.c-social-icon {
+  object-fit: contain;
+  width: 2rem;
+  height: 2rem;
+}
 
 .c-footer {
   line-height: var(--footer-height);

@@ -52,7 +52,7 @@
   align-items: center;
   text-decoration: none;
   gap: 0.5ex;
-  color: inherit;
+  color: black;
   filter: contrast(0);
 }
 .c-social-anchor:active,

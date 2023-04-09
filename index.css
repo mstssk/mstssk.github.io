@@ -70,7 +70,7 @@
 .c-footer {
   line-height: var(--footer-height);
   font-size: small;
-  color: gray;
+  color: darkslategray;
   display: flex;
   justify-content: end;
   padding-inline-end: 1ex;

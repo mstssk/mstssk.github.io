@@ -3,7 +3,7 @@ if (navigator.share) {
   btn.style = null;
   btn.addEventListener("click", () => {
     navigator.share({
-      title: document.querySelector("meta[name=description]")?.content,
+      text: document.querySelector("meta[name=description]")?.content,
       url: location.origin,
     });
   });

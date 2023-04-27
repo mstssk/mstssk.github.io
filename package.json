@@ -12,7 +12,7 @@
   "author": "@mstssk",
   "scripts": {
     "start": "npx serve",
-    "fmt": "prettier --write index.css",
+    "fmt": "prettier --write 'index.{css,js}'",
     "lint": "stylelint index.css"
   },
   "devDependencies": {

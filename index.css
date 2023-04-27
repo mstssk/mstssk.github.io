@@ -72,6 +72,13 @@
   font-size: small;
   color: darkslategray;
   display: flex;
-  justify-content: end;
+  justify-content: space-between;
+  padding-inline-start: 1ex;
   padding-inline-end: 1ex;
+}
+
+.c-footer button {
+  appearance: none;
+  border: none;
+  background: none;
 }

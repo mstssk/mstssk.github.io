@@ -1,5 +1,5 @@
 /* https://github.com/mayank99/reset.css */
-@import "https://unpkg.com/@acab/reset.css";
+@import "https://unpkg.com/@acab/reset.css" layer(reset);
 
 :root {
   --footer-height: 1rem;

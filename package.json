@@ -12,12 +12,10 @@
   "author": "@mstssk",
   "scripts": {
     "start": "npx serve",
-    "fmt": "prettier --write 'index.{css,js}'",
-    "lint": "stylelint index.css"
+    "fmt": "npx @biomejs/biome format --write",
+    "lint": "npx @biomejs/biome lint"
   },
   "devDependencies": {
-    "prettier": "^2.8.3",
-    "stylelint": "^14.16.1",
-    "stylelint-prettier": "^2.0.0"
+    "@biomejs/biome": "1.9.4"
   }
 }

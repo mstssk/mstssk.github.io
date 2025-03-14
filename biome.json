@@ -6,9 +6,9 @@
     "useIgnoreFile": false
   },
   "files": {
-    "include": ["index.js", "index.css", "package.json"],
+    "include": ["index.js", "index.css", "package.json", "tools/**/*"],
     "ignoreUnknown": false,
-    "ignore": []
+    "ignore": ["reset.css"]
   },
   "formatter": {
     "enabled": true,

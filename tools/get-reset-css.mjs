@@ -2,7 +2,7 @@ import { writeFileSync } from "node:fs";
 
 const tag = await getLatestReleaseTag();
 const css = await fetchCSS(tag);
-writeFileSync("reset.css", css);
+writeFileSync("docs/reset.css", css);
 
 async function getLatestReleaseTag() {
   const url = "https://api.github.com/repos/mayank99/reset.css/releases";

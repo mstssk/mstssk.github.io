@@ -17,5 +17,5 @@ async function fetchCSS(tag) {
   const url = `https://raw.githubusercontent.com/mayank99/reset.css/refs/tags/${tag}/package/index.css`;
   const res = await fetch(url);
   const file = await res.text();
-  return `/* Use https://github.com/mayank99/reset.css ${tag} */\n\n${file}`;
+  return `/*! https://github.com/mayank99/reset.css ${tag} */\n\n${file}`;
 }

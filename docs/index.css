@@ -1,5 +1,10 @@
 @import "./reset.css" layer(reset);
 
+@view-transition {
+  /* biome-ignore lint: lint/correctness/noUnknownProperty */
+  navigation: auto;
+}
+
 :root {
   --footer-height: 1rem;
 }
@@ -37,6 +42,9 @@
 }
 .u-spacer-x-4 {
   min-height: 4em;
+}
+.u-transition-slides {
+  view-transition-name: slides;
 }
 
 .c-icon {

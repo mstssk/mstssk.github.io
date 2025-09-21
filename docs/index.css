@@ -21,11 +21,15 @@
   background: #f1f8e9;
 }
 
+.u-layout {
+  min-height: calc(100dvh - 1px); /* Edgeだと高さがやや溢れてスクロールバーが出るので1px引いて回避 */
+  display: grid;
+  grid-template-rows: 1fr var(--footer-height);
+}
+
 .u-centering-container {
   margin: 0;
   padding: 0;
-  width: 100vw;
-  min-height: calc(100dvh - var(--footer-height) - env(safe-area-inset-bottom));
   display: flex;
   align-items: center;
   justify-content: center;

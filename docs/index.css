@@ -1,7 +1,6 @@
 @import "./reset.css" layer(reset);
 
 @view-transition {
-  /* biome-ignore lint: lint/correctness/noUnknownProperty */
   navigation: auto;
 }
 
@@ -22,7 +21,8 @@
 }
 
 .u-layout {
-  min-height: calc(100dvh - 1px); /* Edgeだと高さがやや溢れてスクロールバーが出るので1px引いて回避 */
+  /* Edgeだと高さがやや溢れてスクロールバーが出るので1px引いて回避 */
+  min-height: calc(100dvh - 1px);
   display: grid;
   grid-template-rows: 1fr var(--footer-height);
 }

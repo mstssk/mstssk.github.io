@@ -1,5 +1,0 @@
-# パンくずリンクが出力を出力したくないので、タイトルの自動補完を無効にして条件を回避する
-# https://github.com/pages-themes/primer/blob/6110a758e9322bdb8597c6453efc10ba98281a99/_layouts/default.html#L14-L16
-# https://github.com/benbalter/jekyll-titles-from-headings
-titles_from_headings:
-  enabled: false

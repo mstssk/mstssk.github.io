@@ -11,7 +11,7 @@
   },
   "author": "@mstssk",
   "scripts": {
-    "start": "npx serve docs",
+    "start": "npx @mstssk/serve docs",
     "fmt": "npx @biomejs/biome format --write",
     "lint": "npx @biomejs/biome check",
     "get-reset-css": "node tools/get-reset-css.mjs"
